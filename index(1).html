@@ -1,28 +1,62 @@
-<!DOCTYPE html>
+l<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A minimal semantic HTML5 page.">
-  <title>My Minimal Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Web Page</title>
 </head>
+
 <body>
-  <header>
-    <h1>My Minimal Web Page</h1>
-    <nav>
-      <a href="#main">Skip to Content</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Welcome to My Simple Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main id="main">
-    <section>
-      <h2>About</h2>
-      <p>This page is built with simple semantic HTML5 structure.</p>
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the home section where I share a short welcome note.</p>
+        <p>HTML is the backbone of web development and helps structure content online.</p>
+        <p>It works together with CSS and JavaScript to create full websites.</p>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 My Minimal Page</p>
-  </footer>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A quick overview about myself.</p>
+        <ul>
+            <li>Name: Hudson Mabera</li>
+            <li>Profession: Digital Marketer</li>
+            <li>Hobbies: Blogging, Cooking, Traveling</li>
+        </ul>
+        <img src="hudson.jpg" alt="Hudson Mabera" width="200">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Hudson Mabera</p>
+    </footer>
+
 </body>
-</html>
+
+</html
